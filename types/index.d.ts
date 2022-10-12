@@ -209,8 +209,8 @@ export interface Experience {
   to?: string;
 }
 
-export interface Showcase {
-  name?: string;
+export interface ExternalProjects {
+  title?: string;
   description?: string;
   imageUrl?: string;
   link?: string;
@@ -254,9 +254,9 @@ export interface Config {
   experiences?: Array<Experience>;
 
   /**
-   * Showcase list
+   * External Projects
    */
-  showcases?: Array<Showcase>;
+  externalProjects?: Array<ExternalProjects>;
 
   /**
    * Education list
