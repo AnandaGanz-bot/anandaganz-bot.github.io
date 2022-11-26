@@ -215,6 +215,13 @@ export interface Experience {
   companyLink?: string;
 }
 
+export interface ExternalProjects {
+  title: string;
+  description: string;
+  imageUrl?: string;
+  link: string;
+}
+
 export interface Education {
   institution?: string;
   degree?: string;
@@ -251,6 +258,11 @@ export interface Config {
    * Experience list
    */
   experiences?: Array<Experience>;
+
+  /**
+   * External Projects
+   */
+  externalProjects?: Array<ExternalProjects>;
 
   /**
    * Education list

@@ -549,6 +549,28 @@ module.exports = {
 
 The posts are fetched by [blog.js](https://github.com/arifszn/blog.js).
 
+## External Projects
+
+In this section you can showcase your external projects.
+
+```js
+// gitprofile.config.js
+module.exports = {
+  // ...
+  externalProjects: [
+    {
+      title: 'Title',
+      description: 'Description',
+      link: 'https://example.com',
+      imageUrl: 'https://via.placeholder.com/250x250',
+    },
+  ],
+};
+```
+
+The above configuration will look like this:
+![screenshot-rocks(2)](https://user-images.githubusercontent.com/22073531/195196309-1e55fdc2-791d-453e-9341-3f66201f830d.png)
+
 ## 💖 Support
 
 <p>You can show your support by starring this project. ★</p>
